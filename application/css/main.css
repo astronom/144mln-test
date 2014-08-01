@@ -1,0 +1,64 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+
+.clear {clear:both;}
+
+.container {
+    width: 620px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid #444444;
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 5px solid #0066A4;
+}
+
+#logo
+{
+    padding: 10px;
+    text-align: center;
+}
+
+#footer
+{
+    margin: 10px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.product {
+    height: 220px;
+    overflow: hidden;
+}
+
+.product-full {
+    overflow: hidden;
+}
+
+.product div.product-image {
+    float: left;
+    padding: 10px;
+}
+.product div.product-image img {
+    width: 180px;
+    height: 180px;
+}
+
+.recent-activity {
+    height: 320px;
+    overflow-y: scroll;
+}
+
+.old-price {
+    color: #990000;
+    text-decoration: line-through;
+
+}
+
+.list-view .pager {text-align: left !important; }
